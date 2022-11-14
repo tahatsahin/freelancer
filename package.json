@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/tahatsahin/freelancer/issues"
   },
-  "homepage": "https://github.com/tahatsahin/freelancer#readme"
+  "homepage": "https://github.com/tahatsahin/freelancer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "4.18.2",
+    "mongoose": "^6.7.2",
+    "slugify": "^1.6.5"
+  }
 }
