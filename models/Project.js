@@ -9,7 +9,7 @@ const ProjectSchema = new Schema({
 		required: true,
 	},
 	description: {
-		tpye: String,
+		type: String,
 	},
 	link: {
 		type: String,

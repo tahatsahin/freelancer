@@ -11,9 +11,9 @@ const getIndexPage = async (req, res) => {
 
 const createProject = async (req, res) => {
 	const project = Project.create({
-		name: req.body.name,
-		description: req.body.description,
-		link: req.body.link,
+		name: req.body.projectname,
+		description: req.body.projectdescription,
+		link: req.body.projectimage,
 	});
 	res.status(201).redirect('/');
 };
